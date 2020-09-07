@@ -9,7 +9,7 @@ how to do this.
 
 Today i've read the dump of my Yellow Cartridge:
 
-'''
+
 A8	00	01	03	32	04	01	FF	00	00	34	30	36	34	38	32       ¨ 2ÿ  406482  
 09	09	41	42	19	00	03	48	00	00	00	00	00	00	00	00         AB H  
 53	36	31	39	39	31	30	30	30	34	37	00	00	45	00	00       S6199100047  E  
@@ -17,7 +17,7 @@ A8	00	01	03	32	04	01	FF	00	00	34	30	36	34	38	32       ¨ 2ÿ  406482
 00	00	0C	6A	00	00	00	00	00	00	00	00	00	00	00	00  
 00	00	00	00	00	00	00	00	00	00	00	00	00	00	00	00  
 00	01	02	A6	E0	3F	EC	3F	00	60	98	3E	32	00	00	04            ¦à ì    2  
-47	A5	BB	0F	21	0A	CA	07	1F	1F	1F	1F	00	60	98	3E        G¥» ! Ê
+47	A5	BB	0F	21	0A	CA	07	1F	1F	1F	1F	00	60	98	3E        G¥» ! Ê  
 FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF       ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  
 FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF       ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  
 FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF       ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  
@@ -26,7 +26,7 @@ FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF       ÿÿÿÿÿÿÿÿÿÿÿÿÿ
 FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF       ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  
 FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF       ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  
 FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF       ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
-'''
+
 
 I can only understand the dump in the 3rd row, that contains the
 serial of the printer. If you delete this, the printer will
@@ -37,7 +37,7 @@ even if there is something other than 0 but i think it will.
 
 The most important lines are the two final before all the FF:
 
-'''
+
 A8	00	01	03	32	04	01	FF	00	00	34	30	36	34	38	32  
 09	09	41	42	19	00	03	48	00	00	00	00	00	00	00	00  
 53	36	31	39	39	31	30	30	30	34	37	00	00	45	00	00  
@@ -54,7 +54,7 @@ FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF
 FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF  
 FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF  
 FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF	FF
-'''
+
 
 If you write four "0" after the four "1F" in the last line
 (with last i mean the last before the "FF" area) and after the
